@@ -12,7 +12,7 @@ function whileLoop (n){
   return 'done';
 }
 
-function doWhileLoop(newArray){
+function doWhileLoop(array){
   function maybeTrue() {
   return Math.random() >= 0.5
 }
@@ -20,5 +20,5 @@ function doWhileLoop(newArray){
     array.pop();
   } while(maybeTrue());
   
-  return newArray;
+  return array;
 }
